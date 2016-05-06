@@ -1,0 +1,47 @@
+{
+  "name": "abstractblob",
+  "version": "0.0.0",
+  "description": "abstractblob",
+  "license": "MIT",
+  "repository": "",
+  "author": "",
+  "keywords": [
+    ""
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "ts-stream": "^0.8.0"
+  },
+  "devDependencies": {
+    "del": "2.0.2",
+    "dotbin": "^1.0",
+    "dts-generator": "^1.7",
+    "expect": "^1.19.0",
+    "gulp": "^3.9.0",
+    "gulp-help": "^1.6.0",
+    "gulp-inject": "3.0.0",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-sequence": "0.4.1",
+    "gulp-tsconfig-files": "0.0.2",
+    "gulp-tslint": "^3.1",
+    "gulp-typescript": "^2.13.2",
+    "jasmine": "^2.3.1",
+    "length-stream": "^0.1.1",
+    "mocha": "^2.4.5",
+    "sanitize-filename": "^1.6.0",
+    "should": "^8.3.1",
+    "tsc": "^1.20150623.0",
+    "tslint": "^3.5",
+    "typescript": "^1.8"
+  },
+  "engines": {
+    "node": ">=2.0.0"
+  },
+  "typings": "./lib/abstractblob.d.ts"
+}
